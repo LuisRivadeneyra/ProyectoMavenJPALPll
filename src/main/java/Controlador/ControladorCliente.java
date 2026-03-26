@@ -46,6 +46,7 @@ public class ControladorCliente extends HttpServlet {
 		String telef = request.getParameter("telefono");
 		String sexo = request.getParameter("sexo");
 		String nacion = request.getParameter("nacionalidad");
+		String nacion = request.getParameter("Campo alterno 1");
 		
 		TblCliente cliente=new TblCliente();
 		TblClienteImp crud=new TblClienteImp();
